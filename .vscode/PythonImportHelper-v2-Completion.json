@@ -1,0 +1,682 @@
+[
+    {
+        "label": "pyautogui",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyautogui",
+        "description": "pyautogui",
+        "detail": "pyautogui",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageGrab",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageGrab",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "notification",
+        "importPath": "plyer",
+        "description": "plyer",
+        "isExtraImport": true,
+        "detail": "plyer",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "wikipedia",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipedia",
+        "description": "wikipedia",
+        "detail": "wikipedia",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "gTTS",
+        "importPath": "gtts",
+        "description": "gtts",
+        "isExtraImport": true,
+        "detail": "gtts",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "RESOURCES",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "telegram.ext",
+        "description": "telegram.ext",
+        "isExtraImport": true,
+        "detail": "telegram.ext",
+        "documentation": {}
+    },
+    {
+        "label": "AutomateSchool",
+        "importPath": "AutomateSchool",
+        "description": "AutomateSchool",
+        "isExtraImport": true,
+        "detail": "AutomateSchool",
+        "documentation": {}
+    },
+    {
+        "label": "takeScreenshot",
+        "kind": 2,
+        "importPath": "Automate Dino Game.automateDino",
+        "description": "Automate Dino Game.automateDino",
+        "peekOfCode": "def takeScreenshot():\n    img = ImageGrab.grab().convert(\"L\")  # greyscale image\n    return img\ndef isCollidedWithRect(data):\n    # Draw a black rectangle to detect cactus\n    # Image[x, y](similar to pygame cartesian plane)\n    # i for sideways movement and j for up and down movement\n    # i for width and j for height\n    # For cactus\n    for i in range(650, 850):",
+        "detail": "Automate Dino Game.automateDino",
+        "documentation": {}
+    },
+    {
+        "label": "isCollidedWithRect",
+        "kind": 2,
+        "importPath": "Automate Dino Game.automateDino",
+        "description": "Automate Dino Game.automateDino",
+        "peekOfCode": "def isCollidedWithRect(data):\n    # Draw a black rectangle to detect cactus\n    # Image[x, y](similar to pygame cartesian plane)\n    # i for sideways movement and j for up and down movement\n    # i for width and j for height\n    # For cactus\n    for i in range(650, 850):\n        for j in range(1120, 1170):\n            if data[i, j] > 50:  # if our imaginary rectangle collided with the cactus(white pixel)\n                return \"cactus\"",
+        "detail": "Automate Dino Game.automateDino",
+        "documentation": {}
+    },
+    {
+        "label": "notifyMe",
+        "kind": 2,
+        "importPath": "Corona Notify System.main",
+        "description": "Corona Notify System.main",
+        "peekOfCode": "def notifyMe(title, msg):\n    notification.notify(\n        title=title,\n        message=msg,\n        app_icon=None,\n        timeout=3\n    )\ndef getData(url):\n    return requests.get(url).text\nif __name__ == '__main__':",
+        "detail": "Corona Notify System.main",
+        "documentation": {}
+    },
+    {
+        "label": "getData",
+        "kind": 2,
+        "importPath": "Corona Notify System.main",
+        "description": "Corona Notify System.main",
+        "peekOfCode": "def getData(url):\n    return requests.get(url).text\nif __name__ == '__main__':\n    # notifyMe(\"Satvik\", \"Hello there\")\n    soup = BeautifulSoup(getData(\"https://www.mohfw.gov.in/\"), 'html.parser')\n    print(getData(\"https://www.mohfw.gov.in/\"))\n    # for table in soup.find_all('tbody'):\n    #     print(table)",
+        "detail": "Corona Notify System.main",
+        "documentation": {}
+    },
+    {
+        "label": "init_resources",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def init_resources():\n    # initializing SPRITES\n    numbers = [\n        pygame.image.load(\"gallery/sprites/0.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/1.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/2.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/3.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/4.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/5.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/6.png\").convert_alpha(),",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "welcomeScreen",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def welcomeScreen():\n    \"\"\"\n    Displays the welcome screen till the user presses space bar\n    \"\"\"\n    messageX = (SCREEN_WIDTH - SPRITES['message'].get_width()) / 2\n    messageY = SCREEN_HEIGHT * 0.08\n    birdX = SCREEN_WIDTH * 0.2\n    birdY = (SCREEN_HEIGHT - SPRITES['bird'].get_height()) / 2\n    groundX = 0\n    groundY = SCREEN_HEIGHT - SPRITES['ground'].get_height()",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "get2RandomPipeY",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def get2RandomPipeY():\n    \"\"\"\n    Generates Y coordinate of 2 random pipes\n    (1 inverted and 1 erect)\n    :return: list of y coordinates\n    \"\"\"\n    gap = minPipeLen = int(SCREEN_HEIGHT * 0.3)\n    pipe_invertedY = minPipeLen + random.randint(0, SPRITES['pipe_inverted'].get_height() - minPipeLen)\n    pipe_erectY = (SPRITES['pipe_inverted'].get_height() - pipe_invertedY) + gap\n    pipes = [-pipe_invertedY, pipe_erectY]",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "isCollided",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def isCollided(birdX, birdY, upper_pipes, lower_pipes, groundY):\n    \"\"\"\n    Checks if the bird has collided with either of the pipes or has touched the top or the ground\n    :param birdX: current x coordinate of the bird\n    :param birdY: current y coordinate of the bird\n    :param upper_pipes: 2 upper pipe coordinates(list of dict)\n    :param lower_pipes: 2 lower pipe coordinates(list of dict)\n    :param groundY: Y coordinate of the ground base image\n    :return: True if the bird has collided otherwise false\n    \"\"\"",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "maintainScore",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def maintainScore(currentScore):\n    \"\"\"\n    Maintains all the scoring after comparison with the high-score\n    :param currentScore: current score of the player\n    \"\"\"\n    global HIGH_SCORE\n    if currentScore > HIGH_SCORE:\n        with open(\"high_score.txt\", \"w\") as score:\n            score.write(str(currentScore))\n            HIGH_SCORE = currentScore",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "blitScore",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def blitScore(num, Y):\n    \"\"\"\n    Blits the score in the center of screen\n    :param Y: y coordinate of the score to blit\n    :param num: the number to blit on the screen\n    :return:\n    \"\"\"\n    # getting the width of the whole score\n    score_width = 0\n    score_digits = [int(i) for i in str(num)]",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "mainGame",
+        "kind": 2,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "def mainGame():\n    score = 0\n    birdX = SCREEN_WIDTH / 5\n    birdY = SCREEN_HEIGHT / 2\n    groundX = 0\n    groundY = SCREEN_HEIGHT - SPRITES['ground'].get_height()\n    # All bird movements along y axis only\n    birdVelY = -9\n    birdMaxVelY = 10\n    birdMinVelY = -8",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "FPS",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "FPS = 35\nFPS_CLOCK = pygame.time.Clock()\nSCREEN_WIDTH = 289\nSCREEN_HEIGHT = 511\nSCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))\n# Game Specific Variables\nSPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "FPS_CLOCK",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "FPS_CLOCK = pygame.time.Clock()\nSCREEN_WIDTH = 289\nSCREEN_HEIGHT = 511\nSCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))\n# Game Specific Variables\nSPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "SCREEN_WIDTH",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "SCREEN_WIDTH = 289\nSCREEN_HEIGHT = 511\nSCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))\n# Game Specific Variables\nSPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():\n    # initializing SPRITES",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "SCREEN_HEIGHT",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "SCREEN_HEIGHT = 511\nSCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))\n# Game Specific Variables\nSPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():\n    # initializing SPRITES\n    numbers = [",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "SCREEN",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))\n# Game Specific Variables\nSPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():\n    # initializing SPRITES\n    numbers = [\n        pygame.image.load(\"gallery/sprites/0.png\").convert_alpha(),",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "SPRITES",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "SPRITES = {}\nAUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():\n    # initializing SPRITES\n    numbers = [\n        pygame.image.load(\"gallery/sprites/0.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/1.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/2.png\").convert_alpha(),",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "AUDIO",
+        "kind": 5,
+        "importPath": "Floppy Bird.main",
+        "description": "Floppy Bird.main",
+        "peekOfCode": "AUDIO = {}\nwith open(\"high_score.txt\") as scores:\n    HIGH_SCORE = int(scores.read())\ndef init_resources():\n    # initializing SPRITES\n    numbers = [\n        pygame.image.load(\"gallery/sprites/0.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/1.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/2.png\").convert_alpha(),\n        pygame.image.load(\"gallery/sprites/3.png\").convert_alpha(),",
+        "detail": "Floppy Bird.main",
+        "documentation": {}
+    },
+    {
+        "label": "speak",
+        "kind": 2,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "def speak(speechStr):\n    \"\"\"\n    Universal voice of our assistant\n    :param speechStr: The string to speak\n    :return: None\n    \"\"\"\n    engine = pyttsx3.init('sapi5')  # MS Speech API\n    voices = engine.getProperty('voices')  # getting all the voices on this system\n    # print(voices[0].id)  # gives the path to the installed speech API\n    engine.setProperty('voice', voices[1].id)  # setting voice as male voice",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "wishMe",
+        "kind": 2,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "def wishMe():\n    \"\"\"\n    Wishes the user on start of the program\n    :return:None\n    \"\"\"\n    hour = datetime.datetime.now().hour  # getting the current hour\n    if 0 <= hour < 12:\n        speak(\"Good Morning Satvik\")\n    elif 12 <= hour < 18:\n        speak(\"Good Afternoon Satvik\")",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "listenCommand",
+        "kind": 2,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "def listenCommand():\n    \"\"\"\n    Listens to the mic via Speech_recognition module and converts it to string\n    :return:The command string spoken by the user if the recognition is successful otherwise \"None\"\n    \"\"\"\n    r = sr.Recognizer()\n    with sr.Microphone() as mic:\n        print(\"Listening...\")\n        # r.pause_threshold = 1  # gives more pause time to the user in speaking his speech\n        audio = r.listen(mic)  # listens to the mic opened by with block",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "sendEmail",
+        "kind": 2,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "def sendEmail(to, content):\n    server = smtplib.SMTP(\"smtp.gmail.com\", port=587)\n    server.ehlo()\n    server.starttls()\n    server.login(\"email\", \"pwd\")\n    server.sendmail(\"satvikmittal638@gmail.com\", to, content)\n    server.close()\ndef tellAJoke():\n    API_URL = \"https://official-joke-api.appspot.com/random_joke\"\n    joke_json = requests.get(API_URL).text",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "tellAJoke",
+        "kind": 2,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "def tellAJoke():\n    API_URL = \"https://official-joke-api.appspot.com/random_joke\"\n    joke_json = requests.get(API_URL).text\n    parsed_joke = json.loads(joke_json)\n    fullJoke = f'{parsed_joke[\"setup\"]}\\n{parsed_joke[\"punchline\"]}'\n    speak(fullJoke)\nif __name__ == '__main__':\n    wishMe()\n    while 1:\n        query = listenCommand().lower()",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "chromePath",
+        "kind": 5,
+        "importPath": "Jarvis.jarvis",
+        "description": "Jarvis.jarvis",
+        "peekOfCode": "chromePath = \"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\"\ndef speak(speechStr):\n    \"\"\"\n    Universal voice of our assistant\n    :param speechStr: The string to speak\n    :return: None\n    \"\"\"\n    engine = pyttsx3.init('sapi5')  # MS Speech API\n    voices = engine.getProperty('voices')  # getting all the voices on this system\n    # print(voices[0].id)  # gives the path to the installed speech API",
+        "detail": "Jarvis.jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "textToSpeech",
+        "kind": 2,
+        "importPath": "Railways Announcement System.main",
+        "description": "Railways Announcement System.main",
+        "peekOfCode": "def textToSpeech(text, filename):\n    \"\"\"\n    Makes the mp3 of the text given\n    :param text:text to convert to speech\n    :param filename:file into which the text will be converted\n    :return:\n    \"\"\"\n    myTxt = str(text)\n    language = \"hi\"\n    gTTS(text=myTxt, lang=language, slow=True).save(filename)",
+        "detail": "Railways Announcement System.main",
+        "documentation": {}
+    },
+    {
+        "label": "mergeAudios",
+        "kind": 2,
+        "importPath": "Railways Announcement System.main",
+        "description": "Railways Announcement System.main",
+        "peekOfCode": "def mergeAudios(audiosList):\n    \"\"\"\n    Merges the audio files using pyDub\n    It appends all the audio files to an empty AudioSegment using a for loop\n    :return:pyDub audio segment\n    \"\"\"\n    combined_audios = AudioSegment.empty()\n    for audio in audiosList:\n        combined_audios += combined_audios.from_mp3(audio)\n    return combined_audios",
+        "detail": "Railways Announcement System.main",
+        "documentation": {}
+    },
+    {
+        "label": "generateSkeleton",
+        "kind": 2,
+        "importPath": "Railways Announcement System.main",
+        "description": "Railways Announcement System.main",
+        "peekOfCode": "def generateSkeleton():\n    \"\"\"\n    Generates required cropped portion of the hindidi audio announcement\n    :return:\n    \"\"\"\n    audio = AudioSegment.from_mp3(\"railway.mp3\")\n    # 1 - कृपया ध्यान दीजिये\n    start = 88000\n    end = 90200\n    audio_processed = audio[start:end]",
+        "detail": "Railways Announcement System.main",
+        "documentation": {}
+    },
+    {
+        "label": "generateAnnouncement",
+        "kind": 2,
+        "importPath": "Railways Announcement System.main",
+        "description": "Railways Announcement System.main",
+        "peekOfCode": "def generateAnnouncement(excelFile):\n    \"\"\"\n    Generates the announcement after reading the required parameters from the item file\n    :param excelFile: the path to the item file which would be read using pandas\n    :return:\n    \"\"\"\n    excel = pd.read_excel(excelFile)\n    print(excel)\n    # individual announcement are made row wise\n    for index, item in excel.iterrows():",
+        "detail": "Railways Announcement System.main",
+        "documentation": {}
+    },
+    {
+        "label": "AutomateSchool",
+        "kind": 6,
+        "importPath": "School Automation.AutomateSchool",
+        "description": "School Automation.AutomateSchool",
+        "peekOfCode": "class AutomateSchool:\n    updater = Updater(token=RESOURCES.Bot_API_TOKEN, use_context=True)\n    dispatcher = updater.dispatcher\n    bot = dispatcher.bot\n    def __init__(self, schoolURL, uname, pwd, classLen):\n        chromeOpt = Options()\n        chromeOpt.binary_location = RESOURCES.browserPath\n        chromeOpt.add_argument(\"--disable-blink-features=AutomationControlled\")\n        chromeOpt.add_experimental_option(\"prefs\", {\n            \"profile.default_content_setting_values.media_stream_mic\": 1,",
+        "detail": "School Automation.AutomateSchool",
+        "documentation": {}
+    },
+    {
+        "label": "getTimeObj",
+        "kind": 2,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "def getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),\n    (getTimeObj(\"12:20\"), getTimeObj(\"1:00\"))\n]",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_id",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_id = 'identifierId'\ngm_id_next = 'identifierNext'\ngm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_id_next",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_id_next = 'identifierNext'\ngm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_pwd",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_pwd_next",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_join_btn",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_chat",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_uname",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_pwd",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_login_btn",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_closePopup_btn",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_econnect",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "btnPos",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "btnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_startBTN",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "schl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gmail_loginURL",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "gmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "BASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "Bot_API_TOKEN",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "Bot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "CHAT_ID",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "CHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "browserPath",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "browserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "timings",
+        "kind": 5,
+        "importPath": "School Automation.RESOURCES",
+        "description": "School Automation.RESOURCES",
+        "peekOfCode": "timings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),\n    (getTimeObj(\"12:20\"), getTimeObj(\"1:00\"))\n]",
+        "detail": "School Automation.RESOURCES",
+        "documentation": {}
+    }
+]

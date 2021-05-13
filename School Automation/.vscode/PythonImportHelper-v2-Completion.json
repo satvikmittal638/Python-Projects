@@ -1,0 +1,265 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "RESOURCES",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "Updater",
+        "importPath": "telegram.ext",
+        "description": "telegram.ext",
+        "isExtraImport": true,
+        "detail": "telegram.ext",
+        "documentation": {}
+    },
+    {
+        "label": "ImageGrab",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "AutomateSchool",
+        "importPath": "AutomateSchool",
+        "description": "AutomateSchool",
+        "isExtraImport": true,
+        "detail": "AutomateSchool",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AutomateSchool",
+        "kind": 6,
+        "importPath": "AutomateSchool",
+        "description": "AutomateSchool",
+        "peekOfCode": "class AutomateSchool:\n    updater = Updater(token=RESOURCES.Bot_API_TOKEN, use_context=True)\n    dispatcher = updater.dispatcher\n    bot = dispatcher.bot\n    def __init__(self, schoolURL, uname, pwd, classLen):\n        chromeOpt = Options()\n        chromeOpt.binary_location = RESOURCES.browserPath\n        chromeOpt.add_argument(\"--disable-blink-features=AutomationControlled\")\n        chromeOpt.add_experimental_option(\"prefs\", {\n            \"profile.default_content_setting_values.media_stream_mic\": 1,",
+        "detail": "AutomateSchool",
+        "documentation": {}
+    },
+    {
+        "label": "getTimeObj",
+        "kind": 2,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "def getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),\n    (getTimeObj(\"12:20\"), getTimeObj(\"1:00\"))\n]",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_id",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_id = 'identifierId'\ngm_id_next = 'identifierNext'\ngm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_id_next",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_id_next = 'identifierNext'\ngm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_pwd",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_pwd = '//*[@id=\"password\"]/div[1]/div/div[1]/input'\ngm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_pwd_next",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_pwd_next = 'passwordNext'\ngm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_join_btn",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_join_btn = 'div.uArJ5e.UQuaGc.Y5sE8d.uyXBBb.xKiqt'\ngm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gm_chat",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gm_chat = '/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div/div[2]/div[2]/div[2]/span[2]/div/div[4]/div[1]/div[1]/div[2]/textarea'\n# school site elements\nschl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_uname",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_uname = '//*[@id=\"username\"]'\nschl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_pwd",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_pwd = '//*[@id=\"password\"]'\nschl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_login_btn",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_login_btn = '//*[@id=\"user_login_btn\"]'\nschl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_closePopup_btn",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button'\nschl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_econnect",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'\nbtnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "btnPos",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "btnPos = 0\nschl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "schl_startBTN",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "schl_startBTN = f\"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]\"\n# URLs and APIs\ngmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "gmail_loginURL",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "gmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'\nBASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "BASE_URL = \"https://api.telegram.org/bot\"\nBot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "Bot_API_TOKEN",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "Bot_API_TOKEN = \"1723890890:AAFplWdIFchqVssA7sttfoxUd6Ar1aF4N94\"\nCHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "CHAT_ID",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "CHAT_ID = 1141858123\n# Application Paths\nbrowserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "browserPath",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "browserPath = 'C:\\\\Program Files\\\\BraveSoftware\\\\Brave-Browser\\\\Application\\\\brave.exe'\n# BELL TIMINGS\ndef getTimeObj(myTime):\n    return datetime.strptime(myTime, \"%H:%M\")\ntimings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),",
+        "detail": "RESOURCES",
+        "documentation": {}
+    },
+    {
+        "label": "timings",
+        "kind": 5,
+        "importPath": "RESOURCES",
+        "description": "RESOURCES",
+        "peekOfCode": "timings = [\n    (getTimeObj(\"8:00\"), getTimeObj(\"8:40\")),\n    (getTimeObj(\"8:50\"), getTimeObj(\"9:30\")),\n    (getTimeObj(\"9:40\"), getTimeObj(\"10:20\")),\n    (getTimeObj(\"10:40\"), getTimeObj(\"11:20\")),\n    (getTimeObj(\"11:30\"), getTimeObj(\"12:10\")),\n    (getTimeObj(\"12:20\"), getTimeObj(\"1:00\"))\n]",
+        "detail": "RESOURCES",
+        "documentation": {}
+    }
+]

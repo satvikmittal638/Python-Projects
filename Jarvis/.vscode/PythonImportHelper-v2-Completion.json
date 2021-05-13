@@ -1,0 +1,146 @@
+[
+    {
+        "label": "pyttsx3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyttsx3",
+        "description": "pyttsx3",
+        "detail": "pyttsx3",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "wikipedia",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wikipedia",
+        "description": "wikipedia",
+        "detail": "wikipedia",
+        "documentation": {}
+    },
+    {
+        "label": "webbrowser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "speak",
+        "kind": 2,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "def speak(speechStr):\n    \"\"\"\n    Universal voice of our assistant\n    :param speechStr: The string to speak\n    :return: None\n    \"\"\"\n    engine = pyttsx3.init('sapi5')  # MS Speech API\n    voices = engine.getProperty('voices')  # getting all the voices on this system\n    # print(voices[0].id)  # gives the path to the installed speech API\n    engine.setProperty('voice', voices[1].id)  # setting voice as male voice",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "wishMe",
+        "kind": 2,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "def wishMe():\n    \"\"\"\n    Wishes the user on start of the program\n    :return:None\n    \"\"\"\n    hour = datetime.datetime.now().hour  # getting the current hour\n    if 0 <= hour < 12:\n        speak(\"Good Morning Satvik\")\n    elif 12 <= hour < 18:\n        speak(\"Good Afternoon Satvik\")",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "listenCommand",
+        "kind": 2,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "def listenCommand():\n    \"\"\"\n    Listens to the mic via Speech_recognition module and converts it to string\n    :return:The command string spoken by the user if the recognition is successful otherwise \"None\"\n    \"\"\"\n    r = sr.Recognizer()\n    with sr.Microphone() as mic:\n        print(\"Listening...\")\n        # r.pause_threshold = 1  # gives more pause time to the user in speaking his speech\n        audio = r.listen(mic)  # listens to the mic opened by with block",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "sendEmail",
+        "kind": 2,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "def sendEmail(to, content):\n    server = smtplib.SMTP(\"smtp.gmail.com\", port=587)\n    server.ehlo()\n    server.starttls()\n    server.login(\"email\", \"pwd\")\n    server.sendmail(\"satvikmittal638@gmail.com\", to, content)\n    server.close()\ndef tellAJoke():\n    API_URL = \"https://official-joke-api.appspot.com/random_joke\"\n    joke_json = requests.get(API_URL).text",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "tellAJoke",
+        "kind": 2,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "def tellAJoke():\n    API_URL = \"https://official-joke-api.appspot.com/random_joke\"\n    joke_json = requests.get(API_URL).text\n    parsed_joke = json.loads(joke_json)\n    fullJoke = f'{parsed_joke[\"setup\"]}\\n{parsed_joke[\"punchline\"]}'\n    speak(fullJoke)\nif __name__ == '__main__':\n    wishMe()\n    while 1:\n        query = listenCommand().lower()",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "chromePath",
+        "kind": 5,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "chromePath = \"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\"\ncontacts = {\n    \"satvikdps\": \"satvik.mittal0098@dpshardwar.com\",\n    \"vedanshi\": \"vmittal543@gmail.com\",\n    \"vedanshidps\": \"vedanshi.mittal0015@dpshardwar.com\"\n}\ndef speak(speechStr):\n    \"\"\"\n    Universal voice of our assistant\n    :param speechStr: The string to speak",
+        "detail": "jarvis",
+        "documentation": {}
+    },
+    {
+        "label": "contacts",
+        "kind": 5,
+        "importPath": "jarvis",
+        "description": "jarvis",
+        "peekOfCode": "contacts = {\n    \"satvikdps\": \"satvik.mittal0098@dpshardwar.com\",\n    \"vedanshi\": \"vmittal543@gmail.com\",\n    \"vedanshidps\": \"vedanshi.mittal0015@dpshardwar.com\"\n}\ndef speak(speechStr):\n    \"\"\"\n    Universal voice of our assistant\n    :param speechStr: The string to speak\n    :return: None",
+        "detail": "jarvis",
+        "documentation": {}
+    }
+]
