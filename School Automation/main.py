@@ -5,7 +5,7 @@ import time
 
 if __name__ == '__main__':
 
-    obj = AutomateSchool("https://dpsharidwar.edunexttech.com/Index", "yourAdmnNo", "pwd", 40)
+    obj = AutomateSchool("https://dpsharidwar.edunexttech.com/Index", "admnNo", "pwd", 40)
 
     obj.signInToGmail("your.email@dpshardwar.com", "pwd")
     obj.loginToSchoolSite()

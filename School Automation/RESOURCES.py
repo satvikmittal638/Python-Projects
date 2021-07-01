@@ -16,7 +16,7 @@ schl_closePopup_btn = '/html/body/div[3]/div/div[2]/div[2]/div/div/div[1]/button
 schl_econnect = '/html/body/div[3]/div/div[1]/div/div[2]/div/ul/li[10]'
 
 btnPos = 0
-schl_startBTN = f"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]"
+schl_startBTN = f"/html/body/div[3]/div/div[2]/div[2]/div/div[{btnPos}]/div[2]/div[3]/a"
 
 # URLs and APIs
 gmail_loginURL = 'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ'
